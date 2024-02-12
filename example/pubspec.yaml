@@ -6,7 +6,7 @@ description: Demonstrates how to use the google_native_mobile_ads plugin.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.2.3 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -25,8 +25,8 @@ dependencies:
     # The example app is bundled with the plugin so we use a path dependency on
     # the parent directory to use the current plugin's version.
     path: ../
-  google_mobile_ads: ^3.0.0
-  preload_page_view: ^0.1.6
+  google_mobile_ads: ^4.0.0
+  preload_page_view: ^0.2.0
   flutter_spinkit: ^5.1.0
 
   # The following adds the Cupertino Icons font to your application.
